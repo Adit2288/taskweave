@@ -1,0 +1,38 @@
+#root {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: radial-gradient(
+    ellipse at top,
+    #22203b 0%,
+    #0c0d12 65%
+  );
+}
+
+main {
+  width: 100%;
+  max-width: 900px;
+  padding: 64px 24px;
+  text-align: center;
+}
+
+main > p:first-child {
+  color: #a99bff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: clamp(48px, 10vw, 96px);
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+}
+
+main > p:last-child {
+  color: #a7a8b8;
+  font-size: clamp(16px, 3vw, 20px);
+  line-height: 1.6;
+}
