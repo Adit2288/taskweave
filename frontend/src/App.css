@@ -36,3 +36,66 @@ main > p:last-child {
   font-size: clamp(16px, 3vw, 20px);
   line-height: 1.6;
 }
+
+main > p:nth-of-type(2) {
+  color: #a7a8b8;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+main > section {
+  margin-top: 48px;
+}
+
+main > section > h2 {
+  font-size: 24px;
+  letter-spacing: -0.03em;
+}
+
+main > section > button {
+  padding: 12px 22px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: #a99bff;
+  color: #151020;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+main > section > button:hover:not(:disabled) {
+  background: #bdb2ff;
+}
+
+main > section > button:focus-visible {
+  outline: 2px solid #f4f4f5;
+  outline-offset: 4px;
+}
+
+main > section > button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+main > section > article {
+  margin-top: 24px;
+  padding: 24px;
+  border: 1px solid #30313e;
+  border-radius: 12px;
+  background: #14151d;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+main > section > article > h3 {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+main > section > article > p {
+  color: #b6b7c8;
+  line-height: 1.6;
+}
+
+main > section > [role="alert"] {
+  color: #ffabb5;
+}
