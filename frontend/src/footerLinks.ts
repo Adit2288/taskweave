@@ -1,0 +1,1 @@
+export const footerLinks: { label: string; href: string }[] = []
